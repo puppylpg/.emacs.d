@@ -23,4 +23,17 @@
 "Activate a dark color theme."
 (interactive)
 (color-theme-sanityinc-tomorrow-eighties))
+(defun night ()
+"Activate a night color theme."
+(interactive)
+(color-theme-sanityinc-tomorrow-night))
+(defun bright ()
+"Activate a bright color theme."
+(interactive)
+(color-theme-sanityinc-tomorrow-bright))
+(defun blue ()
+"Activate a blue color theme."
+(interactive)
+(color-theme-sanityinc-tomorrow-blue))
+
 (provide 'init-themes)
